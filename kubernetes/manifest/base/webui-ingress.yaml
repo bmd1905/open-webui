@@ -7,8 +7,12 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: "nginx" # which can be replaced by gce, gce-internal or istio
 spec:
+  # tls:
+  # - hosts:
+  #   - 34.142.135.203.nip.io # TODO: Change this to your domain
+  #   secretName: webui-secret-tls
   rules:
-  - host: 34.142.232.205.nip.io
+  - host: 34.142.135.203.nip.io
     http:
       paths:
       - path: /
