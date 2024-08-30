@@ -9,8 +9,8 @@ metadata:
 spec:
   # tls:
   # - hosts:
-  #   - 0.0.0.0.nip.io # TODO: Change this to your domain
-  #   secretName: webui-secret-tls
+  #   - 0.0.0.0.nip.io
+  #   secretName: webui-tls
   rules:
   - host: 0.0.0.0.nip.io
     http:
